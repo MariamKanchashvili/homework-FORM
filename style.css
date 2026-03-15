@@ -4,9 +4,9 @@
     border-radius: 8px;
     font-family:Arial;
     background-color:rgb(238, 234, 234) ;
-     width:500px;
+     max-width:600px;
     margin:auto;
-  
+  height: 700px
 }
 .title{
     background-color: black;
@@ -16,9 +16,10 @@
     margin : 0 auto;
 }
 .form-box{
-    padding: 30px;
-    width: 400px;
+    padding: 0 80px;
+    madx-width: 500px;
       margin: 15px 0;
+
     
 }
 
@@ -30,9 +31,28 @@ span{
 }
  button{
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 15px;
     background: red;
     color:white;
  margin-top: 15px;
+ width: 200px;
  }
+
+
+.field{
+display:inline-block;
+margin-right:10px;
+}
+.row
+{
+    display:inline-block ;
+    height: 25px;
+    width: auto;
+
+}
+
+.column{
+    display: inline-block;
+    padding: 30px;
+}
